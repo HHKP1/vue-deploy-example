@@ -7,4 +7,12 @@ module.exports = {
     : '/',
     outputDir: './public/',
     assetsDir: './assets/',
+    lintOnSave: false,
+    pages: {
+        index: {
+          entry: 'src/main.js',
+          template: 'src/public/index.html',
+          filename: 'index.html',
+        },
+    },
   }
